@@ -23,5 +23,27 @@ body{
 }
 .button{
     border: 1px solid #000;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgba(255,255,255,0.8);
+    color: #000;
+    text-align:center;
+
+}
+.button:hover{
+    background-color: rgba(255,255,255,0.9);
+    cursor: pointer;
+}
+.button:disabled{
+    color:#000;
+    cursor: no-drop;
+}
+.result-container{
+    background-color: rgba(255,255,255,0.8);
+    border: 2px solid #000;
+    max-width:200px;l
     
 }
